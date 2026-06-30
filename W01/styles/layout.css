@@ -1,0 +1,12 @@
+body {
+   display: grid;
+   grid-template: 2fr auto, 1fr auto;
+}
+
+.main p {
+    grid-column: 1;
+}
+
+.sidebar p {
+    grid-column: 2;
+}
